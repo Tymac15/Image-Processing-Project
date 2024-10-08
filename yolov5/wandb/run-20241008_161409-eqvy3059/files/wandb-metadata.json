@@ -1,0 +1,57 @@
+{
+  "os": "Linux-6.9.3-76060903-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "startedAt": "2024-10-08T14:14:09.620573Z",
+  "args": [
+    "--img",
+    "640",
+    "--batch",
+    "16",
+    "--epochs",
+    "50",
+    "--data",
+    "./data/791.yaml",
+    "--weights",
+    "yolov5s.pt",
+    "--name",
+    "custom_yolov5"
+  ],
+  "program": "/home/oliver_welsh/Oliver_Welsh/Code/GitHub/yolov5/train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "https://github.com/ultralytics/yolov5.git",
+    "commit": "6629839d5f51099c46a51dc2854901a4174cecc8"
+  },
+  "email": "u21432962@tuks.co.za",
+  "root": "/home/oliver_welsh/Oliver_Welsh/Code/GitHub/yolov5",
+  "host": "oliver-welsh",
+  "username": "oliver_welsh",
+  "executable": "/usr/bin/python3",
+  "codePathLocal": "train.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "[NVIDIA GeForce 930MX]",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "481576673280",
+      "used": "61250301952"
+    }
+  },
+  "memory": {
+    "total": "12425519104"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce 930MX",
+      "memoryTotal": "2147483648",
+      "cudaCores": 384,
+      "architecture": "Maxwell"
+    }
+  ],
+  "cudaVersion": "12.6"
+}
