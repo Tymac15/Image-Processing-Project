@@ -1,0 +1,18 @@
+{"time":"2024-10-08T16:14:09.623492271+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-08T16:14:09.623503558+02:00","level":"INFO","msg":"created symlink","path":"/home/oliver_welsh/Oliver_Welsh/Code/GitHub/yolov5/wandb/run-20241008_161409-eqvy3059/logs/debug-core.log"}
+{"time":"2024-10-08T16:14:09.623536752+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-08T16:14:09.62353951+02:00","level":"INFO","msg":"created symlink","path":"/home/oliver_welsh/Oliver_Welsh/Code/GitHub/yolov5/wandb/run-20241008_161409-eqvy3059/logs/debug-core.log"}
+{"time":"2024-10-08T16:14:09.626728942+02:00","level":"INFO","msg":"created new stream","id":"eqvy3059"}
+{"time":"2024-10-08T16:14:09.626747236+02:00","level":"INFO","msg":"stream: started","id":"eqvy3059"}
+{"time":"2024-10-08T16:14:09.626753702+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"eqvy3059"}}
+{"time":"2024-10-08T16:14:09.626771621+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"eqvy3059"}}
+{"time":"2024-10-08T16:14:09.626771639+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"eqvy3059"}}
+{"time":"2024-10-08T16:14:10.402039058+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T16:14:10.403956585+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T16:14:20.62859694+02:00","level":"INFO","msg":"stream: closing","id":"eqvy3059"}
+{"time":"2024-10-08T16:14:20.628714906+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T16:14:20.628976824+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T16:14:27.660777959+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"eqvy3059"}}
+{"time":"2024-10-08T16:14:27.660902981+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"eqvy3059"}}
+{"time":"2024-10-08T16:14:27.661027687+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"eqvy3059"}}
+{"time":"2024-10-08T16:14:27.661196881+02:00","level":"INFO","msg":"stream: closed","id":"eqvy3059"}
