@@ -1,5 +1,5 @@
 <h2 align ='center'> COS791- Image Processing Final Project </h3>
-<p align = 'center'>Ball tracking software</p>
+<p align = 'center'>Ball Tracking Software</p>
 
 
 <img src="readme_resources/bar.png" alt="Alt text" title="bar">
@@ -10,7 +10,8 @@ This project required the creation of a piece of software that would take a vide
 
 
 ## Documentation
-<div><a href="https://www.overleaf.com/read/mbbcfmpmfktc#854a0b">🧾 Demo video</a></div>
+<div><a href="https://www.overleaf.com/read/mbbcfmpmfktc#854a0b">🧾 Documentation</a></div>
+<div><a href="#">📽️ Demo Video </a></div>
 
 
 
