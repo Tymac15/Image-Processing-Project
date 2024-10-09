@@ -1,0 +1,18 @@
+{"time":"2024-10-09T11:13:51.994437493+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-09T11:13:51.994465467+02:00","level":"INFO","msg":"created symlink","path":"/home/oliver_welsh/Oliver_Welsh/Code/GitHub/Image-Processing-Project/yolov5/wandb/run-20241009_111351-jvrj4uwi/logs/debug-core.log"}
+{"time":"2024-10-09T11:13:51.99456633+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-09T11:13:51.994572868+02:00","level":"INFO","msg":"created symlink","path":"/home/oliver_welsh/Oliver_Welsh/Code/GitHub/Image-Processing-Project/yolov5/wandb/run-20241009_111351-jvrj4uwi/logs/debug-core.log"}
+{"time":"2024-10-09T11:13:51.99934737+02:00","level":"INFO","msg":"created new stream","id":"jvrj4uwi"}
+{"time":"2024-10-09T11:13:51.999379995+02:00","level":"INFO","msg":"stream: started","id":"jvrj4uwi"}
+{"time":"2024-10-09T11:13:51.99944281+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"jvrj4uwi"}}
+{"time":"2024-10-09T11:13:51.999481072+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"jvrj4uwi"}}
+{"time":"2024-10-09T11:13:51.999551674+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"jvrj4uwi"}}
+{"time":"2024-10-09T11:13:52.792508275+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T11:13:52.793729027+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T11:14:07.78862908+02:00","level":"INFO","msg":"stream: closing","id":"jvrj4uwi"}
+{"time":"2024-10-09T11:14:07.78866037+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T11:14:07.788827303+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T11:14:09.545046023+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"jvrj4uwi"}}
+{"time":"2024-10-09T11:14:09.545098134+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"jvrj4uwi"}}
+{"time":"2024-10-09T11:14:09.54511611+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"jvrj4uwi"}}
+{"time":"2024-10-09T11:14:09.545180587+02:00","level":"INFO","msg":"stream: closed","id":"jvrj4uwi"}

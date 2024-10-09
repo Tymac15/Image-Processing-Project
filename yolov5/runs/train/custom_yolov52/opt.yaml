@@ -1,6 +1,6 @@
 weights: yolov5s.pt
 cfg: ''
-data: ./data/791.yaml
+data: /home/oliver_welsh/Oliver_Welsh/Code/GitHub/Image-Processing-Project/yolov5/data/config.yaml
 hyp:
   lr0: 0.01
   lrf: 0.01
@@ -40,7 +40,7 @@ noval: false
 noautoanchor: false
 noplots: false
 evolve: null
-evolve_population: data\hyps
+evolve_population: data/hyps
 resume_evolve: null
 bucket: ''
 cache: null
@@ -51,7 +51,7 @@ single_cls: false
 optimizer: SGD
 sync_bn: false
 workers: 8
-project: runs\train
+project: runs/train
 name: custom_yolov5
 exist_ok: false
 quad: false
@@ -69,4 +69,4 @@ bbox_interval: -1
 artifact_alias: latest
 ndjson_console: false
 ndjson_file: false
-save_dir: runs\train\custom_yolov52
+save_dir: runs/train/custom_yolov52
