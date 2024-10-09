@@ -1,8 +1,9 @@
-*/runs/*
-*/data/*
-*/pycache/
+# Exclude specific directories within the repository
+yolov5/data/training/*
+yolov5/data/videos/*
+yolov5/runs/*
 
-# Python cache files
+# Ignore cache and temporary files
 __pycache__/
 *.py[cod]
 
@@ -11,5 +12,6 @@ venv/
 env/
 ENV/
 
-wandb/*
+# Exclude WandB logs
+wandb/
 
