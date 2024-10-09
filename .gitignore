@@ -1,10 +1,10 @@
+# Ignore training and video data
 src/data/training/
 src/data/videos/
+
+# Ignore runs and wandb directories
 src/runs/
 src/wandb/
 
+# Ignore other
 **/.cache
-
-__pycache__/
-*.py[cod]
-
