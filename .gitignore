@@ -1,7 +1,7 @@
-src/data/training/*
-src/data/videos/*
-src/runs/*
-src/wandb/*
+src/data/training/
+src/data/videos/
+src/runs/
+src/wandb/
 
 **/.cache
 
