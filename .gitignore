@@ -3,6 +3,8 @@ src/data/videos/*
 src/runs/*
 src/wandb/*
 
+**/.cache
+
 __pycache__/
 *.py[cod]
 
