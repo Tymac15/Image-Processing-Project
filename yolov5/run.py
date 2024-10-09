@@ -4,7 +4,8 @@ import torch
 import cv2
 
 # Load the YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or 'yolov5m', 'yolov5l', 'yolov5x'
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='runs/train/custom_yolov55/weights/best.pt', force_reload=True, trust_repo=True)
+
 
 # Set the path to your input video file
 video_path = 'data/videos/hockey1.mp4'
