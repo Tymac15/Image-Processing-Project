@@ -1,0 +1,15 @@
+*/runs/*
+*/data/*
+*/pycache/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+
+wandb/*
+
