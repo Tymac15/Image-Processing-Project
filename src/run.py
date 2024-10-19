@@ -3,11 +3,11 @@
 import torch
 import cv2
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path=r'runs\train\run_22\weights\best.pt', force_reload=True, trust_repo=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path=r'runs\train\cat3\weights\last.pt', force_reload=True, trust_repo=True)
 
 
-video_path = 'data/videos/hockey0.mp4'
-output_path = '11_Oct.avi'
+video_path = 'data/videos/hockey1.mp4'
+output_path = '18_Oct.avi'
 
 cap = cv2.VideoCapture(video_path)
 

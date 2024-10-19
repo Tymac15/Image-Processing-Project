@@ -3,5 +3,5 @@ train: ./data/training/images/train  # Path to training images
 val: ./data/training/images/val      # Path to validation images
 
 # Define class names
-nc: 2  # Number of classes (change this to match your number of classes)
-names: ['hockey_ball', 'hockey_puck']  # List of class names (e.g., for a single class, list it like this)
+nc: 1  # Number of classes (change this to match your number of classes)
+names: ['hockey_ball']  # List of class names (e.g., for a single class, list it like this)
