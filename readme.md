@@ -8,18 +8,6 @@
 
 This project required the creation of a piece of software that would take a video as input and perform the relevant processing required to identify and track a ball/puck within a field of play.
 
-### Data file structure
-MyDrive
-├── dataset
-│   ├── field_hockey
-│   │   ├── phase_1
-│   │   └── phase_2
-│   └── ice_hockey
-│       ├── phase_1
-│       └── phase_2
-└── models
-    ├── field_hockey
-    └── ice_hockey
 
 ## Training a Model with YOLOv8 on Google Colab
 
@@ -41,16 +29,31 @@ Follow these steps to set up and train a YOLOv8 model using Google Colab:
      ```
    - Follow the authorization steps provided to link your Google Drive with Colab.
 
-4. **Install YOLOv8 Dependencies**
+4.  **Data file structure**
+ ```python
+MyDrive
+├── dataset
+│   ├── field_hockey
+│   │   ├── phase_1
+│   │   └── phase_2
+│   └── ice_hockey
+│       ├── phase_1
+│       └── phase_2
+└── models
+    ├── field_hockey
+    └── ice_hockey
+```
+
+5. **Install YOLOv8 Dependencies**
    - Ensure you have all necessary dependencies installed, especially `ultralytics`, which provides the YOLOv8 model. Use the following command:
      ```python
      !pip install ultralytics
      ```
 
-5. **Organize Files and Dataset**
+6. **Organize Files and Dataset**
    - Place any dataset files or folders (e.g., images and labels) into your Google Drive. Make sure the path in your notebook code corresponds to the dataset location in your Google Drive.
 
-6. **Run Each Cell Sequentially**
+7. **Run Each Cell Sequentially**
    - Execute each cell in the notebook in sequence. The notebook follows this structure:
      - **Environment Setup**: Check GPU availability and set the working directory.
      - **Google Drive Connection**: Mount Google Drive to save and retrieve files.
@@ -62,11 +65,16 @@ Follow these steps to set up and train a YOLOv8 model using Google Colab:
      - **Results Access**: After training, check your Google Drive folder for saved models and training logs.
 
 
-7. **Accessing Results**
-   - After training, check your Google Drive folder for outputs, such as saved model weights and evaluation metrics.
+8. **Accessing Results**
+   - After training, check your Google Drive folder for outputs, such as saved model weights and evaluation metrics. Most importantly, the phase_2_01.pt file will be necessary to run the ball tracking script. This file can be following the models directory.
 
-8. **Notes**
-   - Training a YOLOv8 model can require significant compute power. If you need more resources, consider changing the runtime to use a **GPU** by selecting **Runtime > Change runtime type > Hardware accelerator > GPU**.
+
+<img src="readme_resources/bar.png" alt="Alt text" title="bar">
+
+## Running the Code
+To run the ball tracking software, go into main.py and check the the path to the input video is correct. Additionally, check that the path to the model (the .pt file obtained from step 8. described in the model training section) is correct and then run the script.
+
+
 
 
 ## Documentation
