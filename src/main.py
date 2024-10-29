@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from yoloV8 import *
+from inference import *
 
 
 if __name__ == "__main__":
