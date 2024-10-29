@@ -8,6 +8,17 @@
 
 This project required the creation of a piece of software that would take a video as input and perform the relevant processing required to identify and track a ball/puck within a field of play.
 
+MyDrive
+├── dataset
+│   ├── field_hockey
+│   │   ├── phase_1
+│   │   └── phase_2
+│   └── ice_hockey
+│       ├── phase_1
+│       └── phase_2
+└── models
+    ├── field_hockey
+    └── ice_hockey
 
 ## Documentation
 <div><a href="https://www.overleaf.com/read/mbbcfmpmfktc#854a0b">🧾 Documentation</a></div>
