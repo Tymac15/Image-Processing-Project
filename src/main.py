@@ -9,8 +9,11 @@ import cv2
 
 
 if __name__ == "__main__":
-    video_path = "src/videos/field_hockey_processed.mp4"
-    model_path = "src/models/field_hockey_model.pt"
+    
+    task = "field_hockey"
+    
+    video_path = f"src/videos/{task}_processed.mp4"
+    model_path = f"src/models/{task}_model.pt"
 
     frames, bounding_boxes = run_yolo_inference(video_path, model_path)
 
@@ -32,5 +35,5 @@ if __name__ == "__main__":
     )
 
     export_frames_to_video(
-        frames, output_path="src/output/highlighted_video.mp4", fps=25
+        frames, output_path=f"src/output/{task}_highlighted.mp4", fps=25
     )
