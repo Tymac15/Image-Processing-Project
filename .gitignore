@@ -1,24 +1,2 @@
-# Ignore training and video data
-src/data/training/
-src/data/videos/
-
-# Ignore runs and wandb directories
-src/runs/
-src/wandb/
-
-# Ignore other
-**/.cache
-
-# Git keep
-
-!src/data/training/.gitkeep
-
-!src/data/training/images/.gitkeep
-!src/data/training/images/train/.gitkeep
-!src/data/training/images/val/.gitkeep
-
-!src/data/training/labels/.gitkeep
-!src/data/training/labels/train/.gitkeep
-!src/data/training/labels/val/.gitkeep
-
-!src/data/videos/.gitkeep
+*.pt
+src/videos
