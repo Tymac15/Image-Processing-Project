@@ -34,7 +34,7 @@ Follow these steps to set up and train a YOLOv8 model using Google Colab:
      from google.colab import drive
      drive.mount('/content/drive')
      ```
-   - Follow the authorization steps provided to link your Google Drive with Colab.
+   - Follow the authorisation steps provided to link your Google Drive with Colab.
 
 4.  **Data file structure**
  ```python
