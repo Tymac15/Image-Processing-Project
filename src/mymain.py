@@ -15,7 +15,8 @@ if __name__ == "__main__":
     video_path = f"C:/Users/tydav/Desktop/IP project/Image-Processing-Project/src/videos/{task}_processed.mp4"
     model_path = f"C:/Users/tydav/Desktop/IP project/Image-Processing-Project/src/models/{task}_model.pt"
 
-    frames, bounding_boxes = run_yolo_inference(video_path, model_path)
+    frames, bounding_boxes = run_yolo_inference(video_path, model_path, conf=0.4)
+
 
     frames, filtered_bounding_boxes = filter_highest_confidence_bounding_box(
         frames, bounding_boxes
