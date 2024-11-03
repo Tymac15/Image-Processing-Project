@@ -16,7 +16,7 @@ This project required the creation of a piece of software that would take a vide
 <img src="readme_resources/bar.png" alt="Alt text" title="bar">
 
 
-## Training a Model with YOLOv8 on Google Colab
+## Training a YOLOv8 model with Google Colab
 
 Follow these steps to set up and train a YOLOv8 model using Google Colab:
 
