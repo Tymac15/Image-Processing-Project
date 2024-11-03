@@ -20,13 +20,28 @@ def apply_bounding_box_mask(
         )
 
         if boxes:
+
             box = boxes[0]
             x1, y1, x2, y2 = map(int, box["box"])
 
+            overlay = darkened_frame.copy()
             oval_center = ((x1 + x2) // 2, (y1 + y2) // 2)
             oval_axes = ((x2 - x1) // 2, (y2 - y1) // 2)
 
-            overlay = darkened_frame.copy()
+            mask = np.zeros_like(frame, dtype=np.uint8)
+            cv2.ellipse(
+                mask,
+                oval_center,
+                oval_axes,
+                angle=0,
+                startAngle=0,
+                endAngle=360,
+                color=(255, 255, 255),
+                thickness=-1,
+            )
+
+            combined_frame = np.where(mask == 255, frame, darkened_frame)
+
             cv2.ellipse(
                 overlay,
                 oval_center,
@@ -39,7 +54,7 @@ def apply_bounding_box_mask(
             )
 
             highlighted_frame = cv2.addWeighted(
-                overlay, oval_alpha, darkened_frame, 1 - oval_alpha, 0
+                overlay, oval_alpha, combined_frame, 1 - oval_alpha, 0
             )
         else:
 

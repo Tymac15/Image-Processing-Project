@@ -9,9 +9,9 @@ import cv2
 
 
 if __name__ == "__main__":
-    
+
     task = "field_hockey"
-    
+
     video_path = f"src/videos/{task}_processed.mp4"
     model_path = f"src/models/{task}_model.pt"
 
