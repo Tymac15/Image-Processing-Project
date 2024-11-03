@@ -10,8 +10,8 @@ This project required the creation of a piece of software that would take a vide
 ## Documentation
 <div><a href="https://www.overleaf.com/read/mbbcfmpmfktc#854a0b">🧾 Documentation</a></div>
 <div><a href="https://drive.google.com/file/d/1jkOIvxXDZvI2KDQqlkBXQ5gFo0clQ3yN/view?usp=sharing">📽️ Demo Video </a></div>
-<div><a href="[https://drive.google.com/file/d/1jkOIvxXDZvI2KDQqlkBXQ5gFo0clQ3yN/view?usp=sharing](https://drive.google.com/file/d/1436jDJVtvuZ7ax8HtKpQHgg4jj8iuI-a/view?usp=sharing)">📽️ Field hockey output </a></div>
-<div><a href="[https://drive.google.com/file/d/1jkOIvxXDZvI2KDQqlkBXQ5gFo0clQ3yN/view?usp=sharing](https://drive.google.com/file/d/17OrBAij6Sdn6PP3A0mAU9h2LzvllaKpw/view?usp=sharing)">📽️ Ice hockey output </a></div>
+<div><a href="https://drive.google.com/file/d/1436jDJVtvuZ7ax8HtKpQHgg4jj8iuI-a/view?usp=sharing">📽️ Field hockey output </a></div>
+<div><a href="https://drive.google.com/file/d/17OrBAij6Sdn6PP3A0mAU9h2LzvllaKpw/view?usp=sharing">📽️ Ice hockey output </a></div>
 
 <img src="readme_resources/bar.png" alt="Alt text" title="bar">
 
