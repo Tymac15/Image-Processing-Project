@@ -1,7 +1,7 @@
-#!/usr/bin/env python
+#! /usr/bin/python3
 from utils import *
 from inference import *
-from thresholding import *
+from prediction_filtering import *
 from interpolate import *
 from mask import *
 
