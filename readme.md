@@ -7,6 +7,13 @@
 ## Description
 
 This project required the creation of a piece of software that would take a video as input and perform the relevant processing required to identify and track a ball/puck within a field of play.
+## Documentation
+<div><a href="https://www.overleaf.com/read/mbbcfmpmfktc#854a0b">🧾 Documentation</a></div>
+<div><a href="https://drive.google.com/file/d/1jkOIvxXDZvI2KDQqlkBXQ5gFo0clQ3yN/view?usp=sharing">📽️ Demo Video </a></div>
+<div><a href="[https://drive.google.com/file/d/1jkOIvxXDZvI2KDQqlkBXQ5gFo0clQ3yN/view?usp=sharing](https://drive.google.com/file/d/1436jDJVtvuZ7ax8HtKpQHgg4jj8iuI-a/view?usp=sharing)">📽️ Field hockey output </a></div>
+<div><a href="[https://drive.google.com/file/d/1jkOIvxXDZvI2KDQqlkBXQ5gFo0clQ3yN/view?usp=sharing](https://drive.google.com/file/d/17OrBAij6Sdn6PP3A0mAU9h2LzvllaKpw/view?usp=sharing)">📽️ Ice hockey output </a></div>
+
+<img src="readme_resources/bar.png" alt="Alt text" title="bar">
 
 
 ## Training a Model with YOLOv8 on Google Colab
@@ -72,14 +79,12 @@ MyDrive
 <img src="readme_resources/bar.png" alt="Alt text" title="bar">
 
 ## Running the Code
-To run the ball tracking software, go into main.py and check the the path to the input video is correct. Additionally, check that the path to the model (the .pt file obtained from step 8. described in the model training section) is correct and then run the script.
+To run the ball tracking software, go into main.py and check that the path to the input video is correct. Additionally, check that the path to the model (the .pt file obtained from step 8. described in the model training section) is correct and then run the script.
 
 
 
 
-## Documentation
-<div><a href="https://www.overleaf.com/read/mbbcfmpmfktc#854a0b">🧾 Documentation</a></div>
-<div><a href="#">📽️ Demo Video </a></div>
+
 
 
 
