@@ -17,7 +17,7 @@ Follow these steps to set up and train a YOLOv8 model using Google Colab:
    - Go to [Google Colab](https://colab.research.google.com/) and log in with your Google account.
 
 2. **Upload the Jupyter Notebook**
-   - Download the Jupyter notebook file (e.g., `yolo_v8_training.ipynb`) from this repository to your local machine.
+   - Download the Jupyter notebook file (`google_colab_yolov8.ipynb`) from this repository to your local machine.
    - In Colab, select **File > Upload Notebook** and choose your downloaded `.ipynb` file.
 
 3. **Connect Google Drive**
