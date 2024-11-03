@@ -1,11 +1,11 @@
 from ultralytics import YOLO
 
 
-def run_yolo_inference(video_path, model_path="yolov8s.pt"):
+def run_yolo_inference(video_path, model_path="yolov8s.pt",  conf=0.1):
 
     model = YOLO(model_path)
 
-    results = model.predict(source=video_path, save=False, device="cuda")
+    results = model.predict(source=video_path, save=False, device="cuda", conf=conf)
 
     frames = []
     bounding_boxes = []
